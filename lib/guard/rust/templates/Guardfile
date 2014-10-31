@@ -1,0 +1,3 @@
+guard :rust do
+  watch(%r{^(.+)\/src\/.+\.rs$}) { |m| m[1] }
+end
